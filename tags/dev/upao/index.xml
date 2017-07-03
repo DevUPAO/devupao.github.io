@@ -6,20 +6,30 @@
     <description>Recent content in Dev/Upao on Dev/UPAO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 19 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jun 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://devupao.github.io/tags/dev/upao/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Como escribir un post para dev/upao</title>
+      <title>Ortografia-T9</title>
+      <link>https://devupao.github.io/post/ortografia-t9/</link>
+      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://devupao.github.io/post/ortografia-t9/</guid>
+      <description>TALLER DE ALGORITMO 2 - EJERCICIO RESUELTO FUENTE: GOOGLE CODE JAM El alfabeto latino tiene 26 caracteres y los teléfonos sólo tienen diez digitos en el teclado.Nos gustaría que sea más facil escribir un mensaje a su amigo ulizando una secuencia de pulsaciones de teclas para indicar los caracteres deseados. Las letras se asignan a los digitos como se muestran acotinuación: Para insertar el caracter &amp;ldquo;b&amp;rdquo;, por ejemplo, el programa debe presionar 22.</description>
+    </item>
+    
+    <item>
+      <title>Como escribir un post para </title>
       <link>https://devupao.github.io/post/2017-06-19-como-escribir-un-post-para-dev-upao/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://devupao.github.io/post/2017-06-19-como-escribir-un-post-para-dev-upao/</guid>
       <description>Gracias por leer este artículo, entiendo que deseas colaborar con la comunidad de Dev/UPAO. El blog de Dev/UPAO está hecho por desarrolladores para desarrolladores, actualmente está desplegado sobre github.io, el cual es un proveedor de páginas estáticas, o sea html puro.
-¿Qué es GitHub Pages? Está diseñado para alojar sus páginas personales, organización o proyecto directamente desde un repositorio GitHub.
-¿Qué es un generador de páginas estáticas? Un generador de pàginas estáticas es mediante el cual uno puede crear cualquier sitio web incluyendo un blog, pero sin el uso de base de datos, ya que para ello solo se usa archivos de texto plano.</description>
+¿Qué es GitHub Pages? #TODO
+¿Que es un generador de páginas estáticas? #TODO
+¿Quien es HUGO? Ventajas:  Nos permite trabajar con hostings estáticos. Trabaja con Markdown Es fácil de instalar y usar.</description>
     </item>
     
   </channel>

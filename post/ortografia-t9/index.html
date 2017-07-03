@@ -1,0 +1,255 @@
+    <!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="dev/upao">
+		<meta name="description" content="Comunidad de desarrollo y software libre de UPAO">
+		<meta name="generator" content="Hugo 0.24.1" />
+		<title>Ortografia-T9 &middot; Dev/UPAO</title>
+		<link rel="shortcut icon" href="https://devupao.github.io/images/favicon.ico">
+		<link rel="stylesheet" href="https://devupao.github.io/css/style.css">
+		<link rel="stylesheet" href="https://devupao.github.io/css/highlight.css">
+		
+
+		
+		<link rel="stylesheet" href="https://devupao.github.io/css/font-awesome.min.css">
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://devupao.github.io/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://devupao.github.io/post'>Archivo</a>
+	<a href='https://devupao.github.io/tags'>Etiquetas</a>
+	<a href='https://devupao.github.io/about'>Sobre nosotros</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>
+                        Ortografia-T9
+                    </h1>
+                    <h2 class="headline">
+                    Jun 23, 2017 00:00
+                    · 552 words
+                    · 3 minutos de lectura
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://devupao.github.io/tags/hugo">hugo</a>
+                          
+                              <a href="https://devupao.github.io/tags/github">github</a>
+                          
+                              <a href="https://devupao.github.io/tags/dev/upao">dev/upao</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+
+                    <p class="headline">
+                        Por Eduwin Torres
+                    </p>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h3 id="taller-de-algoritmo-2-ejercicio-resuelto"><strong>TALLER DE ALGORITMO 2 - EJERCICIO RESUELTO</strong></h3>
+
+<h2 id="fuente-google-code-jam">FUENTE: GOOGLE CODE JAM</h2>
+
+<p>El alfabeto latino tiene 26 caracteres y los teléfonos sólo tienen diez
+digitos en el teclado.Nos gustaría que sea más facil escribir un mensaje
+a su amigo ulizando una secuencia de pulsaciones de teclas para indicar
+los caracteres deseados. Las letras se asignan  a los digitos como se
+muestran acotinuación: Para insertar el caracter &ldquo;b&rdquo;, por ejemplo, el
+programa debe presionar 22. Para insertar dos caracteres en secuencia de
+la misma tecla, el usuario debe hacer  una pausa antes de pulsar la tecla
+para indicar una pausa. Por ejemplo, 2 2 indica &ldquo;aa&rdquo; mientras que le 22
+indica &ldquo;b&rdquo;.</p>
+
+<h2 id="programas-a-usar">PROGRAMAS A USAR</h2>
+
+<p><i class="fa fa-check"></i>Lapicero y hoja bond.</p>
+
+<p><i class="fa fa-check"></i>Netbeans.</p>
+
+<h2 id="1-paso">1.-PASO</h2>
+
+<p>Desarrollar diagramas ns del ejercicio.</p>
+
+<h2 id="2-paso">2.-PASO</h2>
+
+<p>Pasar los diagramas ns a Netbeans.</p>
+
+<p>Para pasar tus diagramas ns a Netbeans necesitas solo aprender lo basico de
+codificación como condicionales,tipo de variales, como leer un dato desde
+consola, en caso no sepas como hacerlo puedes buscarlos en google, &ldquo;la base
+de todo es saber como hacerlo ya que si no sabes ni que quieres hacer la
+maquina tampoco lo sabra&rdquo;.</p>
+
+<h4 id="leemos-y-declaramos-variables">LEEMOS Y DECLARAMOS VARIABLES</h4>
+
+<pre><code>System.out.print(&quot;Ingrese cadena a traducir:&quot;);
+Scanner sc = new Scanner(System.in);
+String sCadena = sc.nextLine() + 1;
+String Cadena = &quot;&quot;, resCadena = &quot;&quot;;
+double can = 0;
+</code></pre>
+
+<h4 id="creamos-diccionario-con-arreglo-bidimencionales">CREAMOS DICCIONARIO CON ARREGLO BIDIMENCIONALES</h4>
+
+<pre><code>String[][] diccionario = {{&quot;2&quot;, &quot;A&quot;}, {&quot;22&quot;, &quot;B&quot;}, {&quot;222&quot;, &quot;C&quot;}, {&quot;3&quot;, &quot;D&quot;},
+{&quot;33&quot;, &quot;E&quot;},{&quot;333&quot;, &quot;F&quot;},{&quot;4&quot;, &quot;G&quot;}, {&quot;44&quot;, &quot;H&quot;}, {&quot;444&quot;, &quot;I&quot;}, {&quot;5&quot;, &quot;J&quot;}, 
+{&quot;55&quot;, &quot;K&quot;}, {&quot;555&quot;, &quot;L&quot;}, {&quot;6&quot;, &quot;M&quot;}, {&quot;66&quot;, &quot;N&quot;}, {&quot;666&quot;, &quot;O&quot;},{&quot;7&quot;, &quot;P&quot;}, 
+{&quot;77&quot;, &quot;Q&quot;}, {&quot;777&quot;, &quot;R&quot;}, {&quot;7777&quot;, &quot;S&quot;}, {&quot;8&quot;, &quot;T&quot;}, {&quot;88&quot;, &quot;U&quot;}, {&quot;888&quot;, &quot;V&quot;}, 
+{&quot;9&quot;, &quot;W&quot;},{&quot;99&quot;, &quot;X&quot;}, {&quot;999&quot;, &quot;Y&quot;}, {&quot;9999&quot;, &quot;Z&quot;}};
+        
+</code></pre>
+
+<h4 id="creamos-un-for-para-recorrer-el-arreglo">CREAMOS UN FOR PARA RECORRER EL ARREGLO</h4>
+
+<pre><code>for (int i = 0, j = 1; i &lt; sCadena.length() &amp;&amp; j &lt; sCadena.length(); i++, j++) {
+        char sCadenaAux = sCadena.charAt(i);
+        char sCad = sCadena.charAt(j);
+}
+</code></pre>
+
+<h4 id="dentro-del-for-agregamos-condicionales">DENTRO DEL FOR AGREGAMOS CONDICIONALES</h4>
+
+<p>Las condicionales nos ayudaran a validad las condiciones planteadas en el ejercicio,
+yo cree estas pero si ustedes creen convenientes disminuir o hacerlo de
+otra forma a buena hora.</p>
+
+<pre><code> if (sCadenaAux == sCad) {
+                Cadena = Cadena + sCadenaAux;
+                //System.out.println(&quot;Cadena essss:&quot; + Cadena);
+
+            } else {
+                if(sCadenaAux != ' '){
+                int num = Integer.parseInt(String.valueOf(sCadenaAux));
+                Cadena = Cadena + sCadenaAux;           
+                if (num &gt;= 2 &amp;&amp; num &lt;= 6 || num == 8) {
+                    can = Cadena.length() % 3;
+                    if (can &gt;= 1) {
+                        Cadena = &quot;&quot;;
+                        for (int k = 0; k &lt; can; k++) {
+                            Cadena = Cadena + num;
+                        }
+                    }
+                    for (int h = 0; h &lt; 25; h++) {
+                        if (diccionario[h][0].equals(Cadena)) {
+                            resCadena = resCadena + diccionario[h][1];
+                            Cadena = &quot;&quot;;
+                        }
+                    }
+                } else if(num == 7 || num == 8){
+                    can = Cadena.length() % 4;
+                    for (int d = 0; d &lt; 25; d++) {
+                        if (diccionario[d][0].equals(Cadena)) {
+                            resCadena = resCadena + diccionario[d][1];
+                            Cadena = &quot;&quot;;
+                        }
+                    }
+                }
+                else if(num == 0){
+                    Cadena= &quot;&quot;;
+                    resCadena = resCadena + &quot; &quot;;
+                }
+                }else{
+                    Cadena = &quot;&quot;;
+                }
+                
+            }
+</code></pre>
+
+<h4 id="para-terminar-imprimimos-la-cadena-para-visualizar-el-mensaje">PARA TERMINAR IMPRIMIMOS LA CADENA PARA VISUALIZAR EL MENSAJE</h4>
+
+<pre><code>    System.out.println(&quot;La cadena traducida es:&quot; + resCadena);
+
+</code></pre>
+
+<h4 id="ejemplo-de-entrada-y-dalida">EJEMPLO DE ENTRADA Y DALIDA</h4>
+
+<p>Con este ejemplo pueden probrar en su computador si el sistema corre correctamente.</p>
+
+<pre><code>ENTRADA                 SALIDA
+3 33888 8872666         DEVUPAO
+4466655520688663666     HOLA MUNDO
+8872666                 UPAO
+</code></pre>
+
+<p>Si tienes alguna pregunta, no dudes en escribirnos a  <a href="https://www.facebook.com/Devupao-450137858679179/">la fanpage de la comunidad</a>.</p>
+
+                </section>
+            </article>
+
+            
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com/Devupao-450137858679179/">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="http://github.com/DevUPAO">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="your_twitter_link">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2017 <i class="fa fa-heart" aria-hidden="true"></i> dev/upao
+    
+    </p>
+    <p class="small">
+        Una comunidad de <a href="www.upao.edu.pe">upao.edu.pe</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://devupao.github.io/js/jquery-2.2.4.min.js"></script>
+<script src="https://devupao.github.io/js/main.js"></script>
+<script src="https://devupao.github.io/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+    </body>
+</html>
