@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Ortografia-T9</title>
+      <link>https://devupao.github.io/post/ortografia-t9/</link>
+      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://devupao.github.io/post/ortografia-t9/</guid>
+      <description>TALLER DE ALGORITMO 2 - EJERCICIO RESUELTO FUENTE: GOOGLE CODE JAM El alfabeto latino tiene 26 caracteres y los teléfonos sólo tienen diez digitos en el teclado.Nos gustaría que sea más facil escribir un mensaje a su amigo ulizando una secuencia de pulsaciones de teclas para indicar los caracteres deseados. Las letras se asignan a los digitos como se muestran acotinuación: Para insertar el caracter &amp;ldquo;b&amp;rdquo;, por ejemplo, el programa debe presionar 22.</description>
+    </item>
+    
+    <item>
       <title>Como escribir un post para dev/upao</title>
       <link>https://devupao.github.io/post/2017-06-19-como-escribir-un-post-para-dev-upao/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
