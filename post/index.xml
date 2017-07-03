@@ -6,18 +6,19 @@
     <description>Recent content in Posts on Dev/UPAO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 23 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jun 2017 17:57:39 -0500</lastBuildDate>
     
 	<atom:link href="https://devupao.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ortografia-T9</title>
-      <link>https://devupao.github.io/post/ortografia-t9/</link>
-      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
+      <title>5 pistas para saber si eres un buen programador</title>
+      <link>https://devupao.github.io/post/5-pistas-para-saber-si-eres-un-buen-programador/</link>
+      <pubDate>Fri, 30 Jun 2017 17:57:39 -0500</pubDate>
       
-      <guid>https://devupao.github.io/post/ortografia-t9/</guid>
-      <description>TALLER DE ALGORITMO 2 - EJERCICIO RESUELTO FUENTE: GOOGLE CODE JAM El alfabeto latino tiene 26 caracteres y los teléfonos sólo tienen diez digitos en el teclado.Nos gustaría que sea más facil escribir un mensaje a su amigo ulizando una secuencia de pulsaciones de teclas para indicar los caracteres deseados. Las letras se asignan a los digitos como se muestran acotinuación: Para insertar el caracter &amp;ldquo;b&amp;rdquo;, por ejemplo, el programa debe presionar 22.</description>
+      <guid>https://devupao.github.io/post/5-pistas-para-saber-si-eres-un-buen-programador/</guid>
+      <description>Estamos en la era de los programadores. El mercado laboral está creciendo exponencialmente.Los programadores son altamente demandados en todo el &amp;ldquo;Mundo&amp;rdquo; Esto trae como consecuencia que los programadores ganen altos salarios y tengan una estabilidad laboral envidiable.
+ Sinembargo, no todo el mundo está echo para ser un buen programador. ¡Claro que todo el mundo puede aprender a programar!, pero aprender a programar no es lo mismo que desarrollar una carrera como programador.</description>
     </item>
     
     <item>
@@ -27,9 +28,8 @@
       
       <guid>https://devupao.github.io/post/2017-06-19-como-escribir-un-post-para-dev-upao/</guid>
       <description>Gracias por leer este artículo, entiendo que deseas colaborar con la comunidad de Dev/UPAO. El blog de Dev/UPAO está hecho por desarrolladores para desarrolladores, actualmente está desplegado sobre github.io, el cual es un proveedor de páginas estáticas, o sea html puro.
-¿Qué es GitHub Pages? #TODO
-¿Que es un generador de páginas estáticas? #TODO
-¿Quien es HUGO? Ventajas:  Nos permite trabajar con hostings estáticos. Trabaja con Markdown Es fácil de instalar y usar.</description>
+¿Qué es GitHub Pages? Está diseñado para alojar sus páginas personales, organización o proyecto directamente desde un repositorio GitHub.
+¿Qué es un generador de páginas estáticas? Un generador de pàginas estáticas es mediante el cual uno puede crear cualquier sitio web incluyendo un blog, pero sin el uso de base de datos, ya que para ello solo se usa archivos de texto plano.</description>
     </item>
     
     <item>
